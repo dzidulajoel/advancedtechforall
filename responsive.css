@@ -1,0 +1,1339 @@
+/* Mobile First */
+:root {
+        --font-size-base: 1rem;
+}
+
+/* =============================Petits téléphones ==========================*/
+@media (max-width: 479px) {
+
+        body,
+        html {
+                width: 100%;
+                height: 100%;
+                padding: 0 1%;
+        }
+
+        nav {
+                height: 80px;
+        }
+
+        main {
+                height: auto;
+        }
+
+        #logo img {
+                width: 80px;
+        }
+
+        nav,
+        nav ul {
+                padding: 0 20px;
+        }
+
+        nav ul {
+                display: none;
+        }
+
+        .section_header {
+                padding-top: 30%;
+        }
+
+        .section_header h1 {
+                font-size: 1.8rem;
+                text-align: start;
+        }
+
+        .section_header h2 {
+                font-size: 1.5rem;
+                text-align: start;
+                margin-top: 30px;
+                width: 100%;
+        }
+
+        .section_header p {
+                width: 100%;
+                font-size: 1rem;
+                text-align: start;
+                margin-top: 30px;
+        }
+
+        #calling {
+                margin-top: 20px;
+                gap: 10px;
+
+        }
+
+        #calling a {
+                font-size: 1rem;
+                flex: 1 0 300px;
+                height: 40px;
+        }
+
+        #about {
+                width: 100%;
+                height: auto;
+                background-color: white;
+                padding-top: 15vh;
+                height: auto;
+
+        }
+
+        .about_1,
+        .about_2 {
+                width: 100%;
+                margin: auto;
+        }
+
+        #about h2 {
+                font-size: 2rem;
+        }
+
+        #about p {
+                width: 100%;
+                font-size: 1rem;
+                text-align: left;
+        }
+
+        #about h3 {
+                color: #000;
+                font-size: 1.5rem;
+        }
+
+        #about .image {
+                width: 100%;
+        }
+
+        .about_1 .image img,
+        .about_2 .image img {
+                width: 100%;
+        }
+
+        #about a {
+                font-size: .8rem;
+        }
+
+        #about a svg {
+                color: #3A7D44;
+        }
+
+        #products {
+                width: 100%;
+                height: auto;
+                margin-bottom: 500px;
+        }
+
+        .product_element .image img {
+                width: 100%;
+                height: 300px;
+        }
+
+        .product_child_1 {
+                width: 100%;
+        }
+
+        .product_child_1 h2 {
+                font-size: 2rem;
+        }
+
+        .product_child_1 h3 {
+                font-size: 1.5rem;
+        }
+
+        .product_child_1 p {
+                width: 100%;
+                font-size: 1rem;
+                color: #000;
+        }
+
+        .product_element {
+                margin-top: 10px;
+                height: 450px;
+        }
+
+        .infos {
+                margin-top: 10px;
+                height: 100px;
+        }
+
+        .infos strong {
+                font-size: 1rem;
+        }
+
+        .infos a {
+                height: 40px;
+        }
+
+        .infos a:hover {
+                width: 45%;
+        }
+
+        #contacts {
+                width: 100%;
+                height: auto;
+                margin-top: 25vh;
+        }
+
+        form {
+                width: 100%;
+                padding-top: 10%;
+                margin-bottom: 30px;
+        }
+
+        .title {
+                width: 100%;
+                margin-top: 0;
+        }
+
+
+        .scroll {
+                animation: apper linear;
+                -webkit-animation: apper linear;
+                animation-timeline: view();
+                animation-range: entry 0% cover 40%;
+        }
+
+        @keyframes apper {
+                from {
+                        opacity: 0.7;
+                        scale: 1;
+                }
+
+                to {
+                        opacity: 1;
+                        scale: 1;
+                }
+        }
+
+
+        .intro h2 {
+                font-size: 2rem;
+                width: 100%;
+        }
+
+        #advantages span {
+                color: #000000;
+        }
+
+        .intro p {
+                width: 90%;
+                font-size: 1rem;
+        }
+
+        .image_student {
+                width: 100%;
+        }
+
+        .image_student img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: top;
+        }
+
+        .intering h2 {
+                color: #03624C;
+                font-size: 2rem;
+                width: 100%;
+        }
+
+        .intering h3 {
+                color: #000000;
+                font-size: 1.3rem;
+
+        }
+
+        #description_avantages {
+        width: 100%;
+}
+
+#description_avantages div {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        border-radius: 14px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -ms-border-radius: 14px;
+        -o-border-radius: 14px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+#description_avantages strong {
+        color: #03624C;
+        font-size: 1.2rem;
+        text-align: center;
+}
+
+#description_avantages p {
+        font-size: 1rem;
+        text-align: start;
+
+}
+
+.btn_menu {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+        }
+
+        .btn_menu i {
+                color: #FFFFFF;
+                transition: color .5s;
+                -webkit-transition: color .5s;
+                -moz-transition: color .5s;
+                -ms-transition: color .5s;
+                -o-transition: color .5s;
+                font-size: 1.5rem;
+        }
+
+        .btn_menu:hover i {
+                color: #000000;
+        }
+
+        .menu_nav {
+                display: none;
+                flex-direction: column;
+                align-items: start;
+                justify-content: start;
+                position: absolute;
+                gap: 20px;
+                top: 10vh;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 350px;
+                background-color: #0000005b;
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+        }
+
+        .menu_nav li {
+                list-style: none;
+                width: 100%;
+                display: flex;
+                padding: 8px 0;
+                padding-left: 40%;
+
+        }
+
+        .menu_nav li a {
+                text-decoration: none;
+                color: #FFFFFF;
+                font-family: 'satoshi', sans-serif;
+                font-size: 1.1rem;
+
+        }
+
+        .menu_nav.open {
+                display: flex;
+        }
+
+}
+
+
+/* ==================================Tablettes================================== */
+@media (min-width: 768px) {
+.btn_menu, .menu_nav{
+        display: none;
+}
+        body,
+        html {
+                width: 100%;
+                height: 100%;
+                padding: 0 1%;
+        }
+
+        nav {
+                padding: 0 1%;
+                height: 80px;
+        }
+
+        body,
+        html {
+                width: 100%;
+                height: 100%;
+                padding: 0 1%;
+        }
+
+        nav {
+                height: 40px;
+        }
+
+        main {
+                height: auto;
+        }
+
+        #logo img {
+                width: 80px;
+        }
+
+        nav,
+        nav ul {
+                padding: 0 20px;
+        }
+
+        nav ul li a {
+                font-size: 1rem;
+        }
+
+        .number {
+                display: none;
+        }
+
+        .section_header {
+                padding-top: 10%;
+                width: 80%;
+                margin: auto;
+        }
+
+        .section_header h1 {
+                font-size: 2.2rem;
+                text-align: start;
+        }
+
+        .section_header h2 {
+                font-size: 1.5rem;
+                text-align: start;
+                margin-top: 30px;
+                width: 100%;
+        }
+
+        .section_header p {
+                width: 100%;
+                font-size: 1rem;
+                text-align: start;
+                margin-top: 30px;
+        }
+
+        #calling {
+                margin-top: 20px;
+                gap: 10px;
+
+        }
+
+        #calling a {
+                font-size: 1rem;
+                flex: 1 0 300px;
+                height: 40px;
+        }
+
+        #about {
+                width: 100%;
+                height: auto;
+                background-color: white;
+                padding-top: 15vh;
+                height: auto;
+                padding: 10%;
+
+        }
+
+        .about_1,
+        .about_2 {
+                width: 100%;
+                margin: auto;
+        }
+
+        #about h2 {
+                font-size: 2rem;
+        }
+
+        #about p {
+                width: 100%;
+                font-size: 1rem;
+                text-align: left;
+        }
+
+        #about h3 {
+                color: #000;
+                font-size: 1.5rem;
+        }
+
+        #about .image {
+                width: 100%;
+        }
+
+        .about_1 .image img,
+        .about_2 .image img {
+                width: 100%;
+        }
+
+        #about a {
+                font-size: .8rem;
+        }
+
+        #about a svg {
+                color: #3A7D44;
+        }
+
+        #products {
+                width: 100%;
+                height: auto;
+        }
+
+        .product_element .image img {
+                width: 100%;
+                height: 300px;
+        }
+
+        .product_child_1 {
+                width: 100%;
+        }
+
+        .product_child_1 h2 {
+                font-size: 2rem;
+        }
+
+        .product_child_1 h3 {
+                font-size: 1.5rem;
+        }
+
+        .product_child_1 p {
+                width: 100%;
+                font-size: 1rem;
+                color: #000;
+        }
+
+        .product_element {
+                margin-top: 10px;
+                height: 450px;
+        }
+
+        .infos {
+                margin-top: 10px;
+                height: 100px;
+        }
+
+        .infos strong {
+                font-size: 1rem;
+        }
+
+        .infos a {
+                height: 40px;
+        }
+
+        .infos a:hover {
+                width: 45%;
+        }
+
+        #contacts {
+                width: 100%;
+                height: auto;
+                padding: 10%;
+        }
+
+        form {
+                width: 80%;
+                padding-top: 10%;
+                margin-bottom: 30px;
+        }
+
+        .title {
+                width: 100%;
+                margin-top: 0;
+        }
+
+
+        .scroll {
+                animation: apper linear;
+                -webkit-animation: apper linear;
+                animation-timeline: view();
+                animation-range: entry 0% cover 40%;
+        }
+
+        @keyframes apper {
+                from {
+                        opacity: 0.7;
+                        scale: 1;
+                }
+
+                to {
+                        opacity: 1;
+                        scale: 1;
+                }
+        }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+
+        body,
+        html {
+                width: 100%;
+                height: 100%;
+                padding: 0 5%;
+        }
+
+        nav {
+                padding: 0 5%;
+                height: 80px;
+        }
+
+        main {
+                height: auto;
+        }
+
+        #logo img {
+                width: 80px;
+        }
+
+        nav,
+        nav ul {
+                padding: 0 20px;
+        }
+
+        nav ul li a {
+                font-size: 1rem;
+        }
+
+        .number {
+                display: flex;
+        }
+
+        .section_header {
+                padding-top: 10%;
+                width: 80%;
+                margin: auto;
+        }
+
+        .section_header h1 {
+                font-size: 2.2rem;
+                text-align: start;
+        }
+
+        .section_header h2 {
+                font-size: 1.5rem;
+                text-align: start;
+                margin-top: 30px;
+                width: 100%;
+        }
+
+        .section_header p {
+                width: 100%;
+                font-size: 1rem;
+                text-align: start;
+                margin-top: 30px;
+        }
+
+        #calling {
+                margin-top: 20px;
+                gap: 10px;
+
+        }
+
+        #calling a {
+                font-size: 1rem;
+                flex: 1 0 300px;
+                height: 40px;
+        }
+
+        #about {
+                width: 100%;
+                height: auto;
+                background-color: white;
+                padding-top: 15vh;
+                height: auto;
+
+        }
+
+        .about_1,
+        .about_2 {
+                width: 100%;
+                margin: auto;
+        }
+
+        #about h2 {
+                font-size: 2rem;
+        }
+
+        #about p {
+                width: 100%;
+                font-size: 1rem;
+                text-align: left;
+        }
+
+        #about h3 {
+                color: #000;
+                font-size: 1.5rem;
+        }
+
+        #about .image {
+                width: 100%;
+        }
+
+        .about_1 .image img,
+        .about_2 .image img {
+                width: 100%;
+        }
+
+        #about a {
+                font-size: .8rem;
+        }
+
+        #about a svg {
+                color: #3A7D44;
+        }
+
+        #products {
+                width: 100%;
+                height: auto;
+        }
+
+        .product_element .image img {
+                width: 100%;
+                height: 300px;
+        }
+
+        .product_child_1 {
+                width: 100%;
+        }
+
+        .product_child_1 h2 {
+                font-size: 2rem;
+        }
+
+        .product_child_1 h3 {
+                font-size: 1.5rem;
+        }
+
+        .product_child_1 p {
+                width: 100%;
+                font-size: 1rem;
+                color: #000;
+        }
+
+        .product_element {
+                margin-top: 10px;
+                height: 450px;
+        }
+
+        .infos {
+                margin-top: 10px;
+                height: 100px;
+        }
+
+        .infos strong {
+                font-size: 1rem;
+        }
+
+        .infos a {
+                height: 40px;
+        }
+
+        .infos a:hover {
+                width: 45%;
+        }
+
+        #contacts {
+                width: 100%;
+                height: auto;
+        }
+
+        form {
+                width: 80%;
+                padding-top: 10%;
+                margin-bottom: 30px;
+        }
+
+        .title {
+                width: 100%;
+                margin-top: 0;
+        }
+
+
+        .scroll {
+                animation: apper linear;
+                -webkit-animation: apper linear;
+                animation-timeline: view();
+                animation-range: entry 0% cover 40%;
+        }
+
+        @keyframes apper {
+                from {
+                        opacity: 0.7;
+                        scale: 1;
+                }
+
+                to {
+                        opacity: 1;
+                        scale: 1;
+                }
+        }
+
+}
+
+/* Très grands écrans */
+@media (min-width: 1440px) {
+
+
+        body,
+        html {
+                width: 100%;
+                height: 100%;
+                padding: 0 10%;
+        }
+
+        nav {
+                padding: 0 15%;
+        }
+
+        .number {
+                display: flex;
+        }
+
+        nav {
+                height: 80px;
+                width: 100%;
+                background-color: #3A7D44;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 1000;
+        }
+
+
+        active_bar_mobile {
+                color: #000000;
+                font-weight: 500;
+        }
+
+        #logo img {
+                width: 150px;
+        }
+
+        nav,
+        nav ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 30px;
+        }
+
+        nav li {
+                list-style: none;
+        }
+
+        nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-family: 'Satoshi', sans-serif;
+                font-size: 1.1rem;
+        }
+
+        .section_header {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: start;
+                padding-top: 15%;
+        }
+
+        .section_header h1 {
+                font-family: 'Be Vietnam Pro', sans-serif;
+                color: #000000;
+                font-size: 4rem;
+                text-align: start;
+        }
+
+        .section_header h2 {
+                font-family: 'Be Vietnam Pro', sans-serif;
+                color: #3A7D44;
+                font-size: 3rem;
+                text-align: start;
+                width: 70%;
+                margin-top: 10px;
+
+        }
+
+        .section_header p {
+                width: 70%;
+                margin-top: 10px;
+                margin-bottom: 40px;
+                color: rgb(0, 0, 0);
+                font-size: 1.3rem;
+                text-align: justify;
+                font-family: 'satoshi', sans-serif;
+                font-weight: 500;
+        }
+
+        #calling {
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                flex-wrap: wrap;
+        }
+
+        #calling a {
+                text-decoration: none;
+                font-size: 1.1rem;
+                text-align: center;
+                font-family: 'satoshi', sans-serif;
+                background-color: #FFF;
+                padding: 8px 12px;
+                color: #000;
+                transition: .5s;
+                border-radius: 14px;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+                font-weight: 500;
+                flex: 1 0 300px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+
+        #calling a:first-child {
+                background-color: #3A7D44;
+                color: white;
+        }
+
+        #calling a:first-child:hover {
+                background-color: #FFF;
+                color: #3A7D44;
+        }
+
+        #calling a:hover {
+                background-color: #3A7D44;
+                color: white;
+        }
+
+
+        main {
+                width: 100%;
+                height: auto;
+                background-color: white;
+        }
+
+        #about {
+                width: 100%;
+                height: auto;
+                background-color: white;
+                padding-top: 15vh;
+        }
+
+        .about_1,
+        .about_2 {
+                width: 90%;
+                margin: auto;
+        }
+
+        #about h2 {
+                font-family: 'Be Vietnam Pro', sans-serif;
+                color: #3A7D44;
+                font-size: 3.5rem;
+                text-align: center;
+        }
+
+        #about p {
+                width: 70%;
+                margin: auto;
+                color: gray;
+                font-size: 1.2rem;
+                text-align: center;
+                font-family: 'satoshi', sans-serif;
+                margin: 40px auto;
+                font-weight: 600;
+        }
+
+
+        #about h3 {
+                font-family: 'Be Vietnam Pro', sans-serif;
+                color: #000;
+                font-size: 2rem;
+                text-align: center;
+        }
+
+
+        #about .image {
+                width: 80%;
+                height: 450px;
+                margin: auto;
+                margin-bottom: 50px;
+                padding: 10px;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        }
+
+        .about_1 .image img,
+        .about_2 .image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+        }
+
+        #about a {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                color: #3A7D44;
+                font-size: 1rem;
+                text-align: center;
+                font-family: 'satoshi', sans-serif;
+                margin: 40px auto;
+                font-weight: 600;
+        }
+
+        #about a svg {
+                color: #3A7D44;
+        }
+
+        #products {
+                width: 80%;
+                height: auto;
+                padding-top: 15vh;
+                margin: auto;
+        }
+
+        .product_child_1 {
+                width: 100%;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+        }
+
+        .product_child_1 h2 {
+                font-family: 'Be Vietnam Pro', sans-serif;
+                color: #3A7D44;
+                font-size: 3.5rem;
+                text-align: center;
+        }
+
+        .product_child_1 h3 {
+                color: #000000;
+                font-family: 'Be Vietnam Pro', sans-serif;
+                font-size: 2rem;
+                text-align: center;
+        }
+
+        .product_child_1 p {
+                width: 100%;
+                font-size: 1.2rem;
+                font-family: 'satoshi', sans-serif;
+                margin: 10px auto;
+                color: #FFFFFF;
+                text-align: center;
+        }
+
+        .product_element {
+                width: 100%;
+                height: 550px;
+                margin-top: 40px;
+                gap: 20px;
+                display: flex;
+                flex-wrap: wrap;
+        }
+
+        .product_element .image {
+                flex: 1 0 300px;
+                height: 100%;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+                padding: 10px;
+                border-radius: 14px;
+                -webkit-border-radius: 14px;
+                -moz-border-radius: 14px;
+                -ms-border-radius: 14px;
+                -o-border-radius: 14px;
+        }
+
+
+        .product_element .image img {
+                width: 100%;
+                height: 350px;
+                border-radius: 14px;
+                object-fit: cover;
+                object-position: center;
+        }
+
+        .infos {
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 30px;
+        }
+
+        .infos strong {
+                color: #3A7D44;
+                font-size: 1.3rem;
+                text-align: center;
+                font-family: 'satoshi', sans-serif;
+                font-weight: 700;
+        }
+
+        .infos a {
+                background-color: #3A7D44;
+                padding: 8px 12px;
+                border-radius: 14px;
+                color: #FFFFFF;
+                font-size: 1rem;
+                text-align: center;
+                font-family: 'satoshi', sans-serif;
+                width: 50%;
+                margin: auto;
+                transition: .5s;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+
+        .infos a:hover {
+                width: 45%;
+        }
+
+
+        #contacts {
+                width: 100%;
+                height: auto;
+                padding-top: 15vh;
+        }
+
+        .title {
+                width: 70%;
+                margin: auto;
+                margin-bottom: 20px;
+        }
+
+        #contacts h2 {
+                font-family: 'Be Vietnam Pro', sans-serif;
+                color: #3A7D44;
+                font-size: 2rem;
+                text-align: center;
+        }
+
+        form {
+                width: 50%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+                padding: 10px;
+                background-color: #FFFFFF;
+                border-radius: 14px;
+                margin-bottom: 30px;
+        }
+
+        form input,
+        select {
+                height: 50px;
+                border: none;
+                outline: none;
+                font-size: 1rem;
+                font-family: 'satoshi', sans-serif;
+                padding-left: 10px;
+                border-radius: 14px;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        }
+
+        form button {
+                text-decoration: none;
+                font-size: 1.2rem;
+                text-align: center;
+                font-family: 'satoshi', sans-serif;
+                background-color: #3A7D44;
+                padding: 8px 12px;
+                color: #FFFFFF;
+                transition: .5s;
+                border-radius: 14px;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                margin: auto;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        }
+
+        form button:hover {
+                width: 90%;
+        }
+
+        footer {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 10px 0;
+                background-color: #3A7D44;
+                position: absolute;
+                right: 0;
+                left: 0;
+        }
+
+        footer ul {
+                gap: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.2rem;
+                text-align: center;
+                font-family: 'satoshi', sans-serif;
+                list-style: none;
+                margin-bottom: 30px;
+        }
+
+        footer ul li a {
+                color: #FFFFFF;
+        }
+
+        footer p {
+                font-size: 1.1rem;
+                text-align: center;
+                color: #FFFFFF;
+                font-family: 'satoshi', sans-serif;
+        }
+
+        .scroll {
+                animation: apper linear;
+                -webkit-animation: apper linear;
+                animation-timeline: view();
+                animation-range: entry 0% cover 40%;
+        }
+
+        @keyframes apper {
+                from {
+                        opacity: 0.7;
+                        scale: .8;
+                }
+
+                to {
+                        opacity: 1;
+                        scale: 1;
+                }
+        }
+
+        #advantages {
+        width: 100%;
+        height: auto;
+        padding-top: 10vh;
+}
+
+
+.intro h2 {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        color: #03624C;
+        font-size: 4rem;
+        text-align: center;
+        margin: 40px auto;
+        width: 70%;
+}
+
+#advantages span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #3A7D44;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'satoshi', sans-serif;
+        font-weight: 600;
+}
+
+.intro p {
+        width: 50%;
+        margin: auto;
+        color: gray;
+        font-size: 1.2rem;
+        text-align: center;
+        font-family: 'satoshi', sans-serif;
+        font-weight: 600;
+}
+
+.image_student {
+        width: 60%;
+        height: auto;
+        background-color: #FFFFFF;
+        margin: 40px auto;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.image_student img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+}
+
+.intering h2 {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        color: #03624C;
+        font-size: 3rem;
+        text-align: center;
+        margin: 40px auto 10px;
+        width: 70%;
+}
+
+.intering h3 {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        color: #3A7D44;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: auto;
+        width: 70%;
+}
+
+#description_avantages {
+        width: 80%;
+        height: auto;
+        background-color: #FFFFFF;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+
+#description_avantages div {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        border-radius: 14px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -ms-border-radius: 14px;
+        -o-border-radius: 14px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+#description_avantages strong {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        color: #3A7D44;
+        font-size: 1.3rem;
+        text-align: center;
+}
+
+
+#description_avantages p {
+        color: #000000;
+        font-size: 1.2rem;
+        text-align: justify;
+        font-family: 'satoshi', sans-serif;
+        margin-top: 20px;
+}
+
+#Educators,
+#Students {
+        padding-top: 10vh;
+}
+}
